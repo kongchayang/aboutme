@@ -1,0 +1,128 @@
+
+body {
+    background-color: cornsilk;
+    margin: 0 auto;
+    padding: 0 auto; 
+    max-width: 50em;
+    font-size: 20px;
+    line-height: 150%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.photo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+/* .box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 4px; 
+} */
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+/* .page{
+    padding: 30px 30px 20px;
+    line-height: 30px;
+}  */
+.about{
+    padding: 30px 30px 20px;
+    line-height: 30px;
+}
+/* .photo{
+    display: none;
+} */
+.content{
+    width: 100%;
+    padding: 30px 30px 20px;
+    line-height: 30px;
+}
+.brienne{
+    padding: 30px 30px 20px;
+    line-height: 30px;
+}
+nav {
+    background: #333;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    line-height: 30px;
+}
+/* nav a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 10px;
+} */
+
+nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+nav a:hover{
+    background-color: rgb(192, 196, 159);
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 15px;
+}
+
+.purpose { 
+    padding: 30px 30px 20px;
+    line-height: 30px;
+
+}
+
+.services{
+
+}
+
+.skillset{
+    padding: 30px 30px 20px;
+    line-height: 30px;
+}
+
+.home{}
+
+.contact{
+    padding: 30px 30px 20px;
+    line-height: 30px;
+}
+
+
+@media only screen and (min-width: 768){}
+
+/* .wrapper{
+    width: 600px;
+    margin: 0 auto;
+}
+.page{
+    padding: 20px 0px 0px;
+    line-height: 30px;
+}  */
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav li{
+    flex: 1 1 0;
+}
